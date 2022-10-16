@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import myImage from '../src/assets/earth.jpg'
 
 const Title = styled.h1`
   font-size: 20px;
@@ -22,11 +21,12 @@ height:auto;
   display:flex;
   text-align:center;
   width:115%;
-  margin-top:120%;
+  margin-top:195%;
+  margin-left:-30px
 }
 &:hover img{
   // height:30px;
-  transform:scale(1.2);
+  transform:scale(2.6);
   overflow:hidden;
 },
 img {

@@ -1,6 +1,7 @@
 {
   "name": "material-ui-react-tutorial",
   "version": "0.1.0",
+  "homepage": "https://AmanMayank.github.io/earth",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
@@ -13,9 +14,11 @@
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.26"
+    "@types/styled-components": "^5.1.26",
+    "gh-pages": "^4.0.0"
   },
-  "scripts": {
+  "scripts": {"predeploy": "npm run build",
+    "deploy": "earth -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
